@@ -1,4 +1,4 @@
-#!/usr/bin/env elixir
+#!/usr/bin/env mix-snippet
 
 alias Rumbl.Category
 alias Rumbl.Video

@@ -1,4 +1,4 @@
-#!/usr/bin/env elixir
+#!/usr/bin/env mix-snippet
 
 import Ecto.Query
 alias Rumbl.Repo
