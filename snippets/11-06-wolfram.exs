@@ -4,10 +4,19 @@
 
 defmodule Utility do
   def query(question) do
-    [answer] = Rumbl.InfoSys.compute(question)
+    InfoSys.compute(question)
+    |> respond(question)
+  end
+
+  def respond([], question) do
+    respond([%{text: "No response."}], question)
+  end
+
+  def respond([%{text: answer}], question) do
     IO.puts ""
     IO.puts "--- #{question} ---"
-    IO.puts "#{answer.text}"
+    IO.puts "#{answer}"
+    answer
   end
 end
 
