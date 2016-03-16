@@ -23,7 +23,7 @@ defmodule Rumbl.InfoSys.Wolfram do
     send(owner, {:results, query_ref, results})
   end
 
-  def fetch_xml(query_str) do
+  defp fetch_xml(query_str) do
     {:ok, {_, _, body}} = :httpc.request(
       String.to_char_list(
         "http://api.wolframalpha.com/v2/query" <>
