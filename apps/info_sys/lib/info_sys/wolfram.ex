@@ -1,6 +1,6 @@
-defmodule Rumbl.InfoSys.Wolfram do
+defmodule InfoSys.Wolfram do
   import SweetXml
-  alias Rumbl.InfoSys.Result
+  alias InfoSys.Result
 
   def start_link(query, query_ref, owner, limit) do
     Task.start_link(__MODULE__, :fetch, [query, query_ref, owner, limit])
@@ -30,16 +30,13 @@ defmodule Rumbl.InfoSys.Wolfram do
         "?appid=#{app_id()}" <>
         "&input=#{URI.encode(query_str)}" <>
         "&format=image,plaintext"
-        #"?appid=AE9U22-5GKW7TJP93" <>
-        #"&input=pi" <>
-        #"&format=image,plaintext"
       )
     )
     body
   end
 
   defp app_id() do
-    Application.get_env(:rumbl, :wolfram)[:app_id]
+    Application.get_env(:info_sys, :wolfram)[:app_id]
   end
 end
 
