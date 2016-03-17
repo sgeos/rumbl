@@ -39,3 +39,4 @@ defmodule Rumbl.ChannelCase do
     :ok
   end
 end
+
