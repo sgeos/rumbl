@@ -51,14 +51,17 @@ if you want to run in production.
 
 ## Learn more
 
-  * [Programming Phoenix Book][book]
-  * [Programming Elixir 1.2 Book][elixir-book]
-  * [Metaprogramming Elixir Book][metaprogramming-book]
   * Official website: http://www.phoenixframework.org/
   * Guides: http://phoenixframework.org/docs/overview
   * Docs: http://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+## Books
+
+  * [Programming Phoenix Book][book]
+  * [Programming Elixir 1.2 Book][elixir-book]
+  * [Metaprogramming Elixir Book][metaprogramming-book]
 
 [book]: https://pragprog.com/book/phoenix/programming-phoenix
 [elixir-book]: https://pragprog.com/book/elixir12/programming-elixir-1-2
