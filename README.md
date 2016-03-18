@@ -4,7 +4,12 @@ This is the state of my rumbl project after finishing [Programming Phoenix][book
 (rumbrella if you finished the book.)
 I modified the settings to use **.secret.exs** files that are not in version control.
 **.secret.exs.example** files exist that can be copied and modified to get up and running.
-The snippets directory is an incomplete listing of iex snippets I keyed into files.
+
+The **snippets** directory is an incomplete listing of **iex** snippets I keyed into files.
+There is a good chance the files in this directory worked when I keyed them in,
+but stopped working as I went throug the book.
+Other snippets may have been modified after the fact.
+In other words, no guarantees.
 
 Do the following to deploy this app.
 
