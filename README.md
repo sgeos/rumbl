@@ -1,6 +1,7 @@
 # Rumbl
 
 This is the state of my rumbl project after finishing [Programming Phoenix][book].
+(rumbrella if you finished the book.)
 I modified the settings to use .secret.exs files that are not in version control.
 .secret.exs.example files exist that can be copied and modified to get up and running.
 The snippets directory is an incomplete listing of iex snippets I keyed into files.
