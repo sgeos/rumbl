@@ -7,7 +7,7 @@ The snippets directory is an incomplete listing of iex snippets I keyed into fil
 
 Do the following to deploy this app.
 
-{% highlight sh %}
+```sh
 git clone git@github.com:sgeos/rumbl.git
 cd rumbl
 (cd apps/info_sys/config; cp info_sys.secret.exs.example info_sys.secret.exs)
@@ -24,19 +24,19 @@ mix ecto.migrate -r Rumbl.Repo
 mix run apps/rumbl/priv/repo/seeds.exs
 mix run apps/rumbl/priv/repo/backend_seeds.exs
 (cd apps/rumbl; npm install)
-{% endhighlight %}
+```
 
 Test the app.
 
-{% highlight sh %}
+```sh
 mix test
-{% endhighlight %}
+```
 
 Start the server.
 
-{% highlight sh %}
+```sh
 mix phoenix.server
-{% endhighlight %}
+```
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
